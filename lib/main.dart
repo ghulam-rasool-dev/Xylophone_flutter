@@ -9,6 +9,8 @@ class Xylophone extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      color: Colors.blueAccent,
+      title: 'Xylophone',
       home: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.blueAccent,
